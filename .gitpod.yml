@@ -1,4 +1,2 @@
 tasks:
-  - before: npm install @ampt/dev-cli@latest -g
-    init: sleep 2
-    command: cloud
+  init: npx -y @ampt/dev-cli@latest
