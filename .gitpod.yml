@@ -1,4 +1,3 @@
 tasks:
   - before: npm i @ampt/dev-cli@latest -g
-    init: sleep 3
     command: cloud --ide=gitpod --initial
