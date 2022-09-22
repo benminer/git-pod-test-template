@@ -1,4 +1,3 @@
 tasks:
   - before: npm i @ampt/dev-cli@latest -g
-    init: sleep 5
-    command: cloud --ide=gitpod --initial
+    command: echo "Type 'cloud' to start a new Serverless Cloud project"
