@@ -1,2 +1,2 @@
 tasks:
-  - init: npx -y @ampt/dev-cli@latest
+  - init: npx -y @ampt/dev-cli@latest --ide=gitpod --initial
