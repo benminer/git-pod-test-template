@@ -1,3 +1,3 @@
 tasks:
   - before: clear; npm config set loglevel silent && npm config set update-notifier false && npm i --silent @ampt/dev-cli@latest -g
-    command: cloud --ide=gitpod --initial
+    command: CLOUD_STAGE=ben cloud --ide=gitpod --initial
